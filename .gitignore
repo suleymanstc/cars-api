@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --------------------------------------------------
+# Project Specific (Cars API)
+# --------------------------------------------------
+# Data files (180k records should not be tracked)
+*.csv
+*.parquet
+*.xlsx
+
+# macOS metadata
+.DS_Store
+
+# IDE configs
+.idea/
+.vscode/
